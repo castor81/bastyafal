@@ -1,0 +1,80 @@
+BÁSTYAFAL – V6 Bemutató videó (30 mp)
+Hol használjuk: a játék és a projekt bemutatására (nyitóoldal, plakát QR-ral, közösségi felület, tanári tájékoztató). Nem a játék belső videója.
+Fájlnév a kész videóhoz: bastyafal_v6_bemutato_30mp.mp4  (v1.0 · 2026-11-06)
+
+===== 0) KONCEPCIÓ – a Fiverr-filozófiából átvett elvek =====
+Forrás: a Fiverr első márkakampánya („In Doers We Trust”, a cselekvők pártján) és a márkafrissítése (valódi emberek, a termék felülete maga a márka). Átvett elvek:
+1. Cselekvés a magyarázat helyett: nem azt mondjuk, mit tanít a játék, hanem azt mutatjuk, hogy itt valaki dönt. A kampány hívószava ennek megfelelően: „Ti döntötök.”
+2. Rövid, kemény mondatok: egy mondat = egy kép = egy gondolat. Nincs szakszó, nincs kioktatás.
+3. Elbeszélés a néző szemszögéből: a hős a csapat, nem a tanár és nem a szervezet.
+4. A termék felülete a márka: a képernyős részekben a játék valódi kijelzője látszik (négy alakzat, időzítő, három mérő), nem rajzolt illusztráció.
+5. Valódi emberek, nem modellek: hátulról és kézként látott fiatalok (arc nélkül), hétköznapi helyzetek.
+6. Nem harcias, nem toborzó: a hangnem magabiztos, gyors, kicsit pimasz, de tiszteletteljes.
+
+Ív (30 mp): Horog (0–6) → Név (6–10) → A játék működik (10–19) → Miért jó (19–27) → Jelmondat (27–30).
+
+===== 1) FELÉPÍTÉS ÉS FELIRATOK (időkóddal, magyarul) =====
+00:00–00:03  Kép: éjszakai iskolai folyosó, egy telefon felvillan.   Felirat: „Üzenet jön.”
+00:03–00:06  Kép: hüvelykujj a kijelző felett, zsugorodó gyűrű.      Felirat: „Mit teszel?”
+00:06–00:10  Kép: sötét háttér, a bástyafal-sziluett kirajzolódik.    Felirat (cím): „BÁSTYAFAL” / „Kaland a hálón”
+00:10–00:13  Kép (játékfelület): a kijelzőn négy alakzat + időzítő.   Felirat: „Egy osztály. Egy kijelző. Négy opció.”
+00:13–00:16  Kép (játékfelület): QR-kód, telefonok szavaznak.          Felirat: „Telefonról szavaztok. Regisztráció nélkül.”
+00:16–00:19  Kép (játékfelület): eredménysávok, döntetlen, kockadobás.   Felirat: „Döntetlen? Újraszavazás. Vagy kocka.”
+00:19–00:23  Kép: vörös glitch, majd visszatekerés (időhurok).          Felirat: „Rossz döntés? Visszatekerjük. Tanultok belőle.”
+00:23–00:27  Kép: a csapat hátulról, közösen a kijelző előtt.           Felirat: „Kibervédelem és álhírek. Úgy, ahogy a ti világotokban történnek.”
+00:27–00:30  Kép: a fal teljesen kiépül, cím.                           Felirat: „BÁSTYAFAL. Védd a hálót.” (majd kis betűvel) „Ti döntötök.”
+
+Megjegyzés a feliratokhoz: a felirat nem beégetett a generált képbe; utómunkában (vagy a lejátszóban) kerül rá. Nagy, fehér, rövid sorok, legfeljebb 6–7 szó soronként. A cím és a jelmondat a márkaszíneket kapja (cián + magenta).
+
+===== 2) HANG =====
+Zene: eredeti hangszeres szintipulzus, 100 BPM; 0–6 mp halk, feszült; a címnél erősödik; 10–19 mp ritmusos, pörgős; 27–30 mp tiszta, kitartott zárohang. Nincs ének.
+Narráció: nincs (a felirat visz mindent), így hang nélkül is működik (közösségi felület, teremben).
+Effektek: értesítési hang 0 mp-nél, időzítő-ketyegés 10–13 mp, kocka gurulása 16–19 mp, visszatekerés (reverse swoosh) 19–21 mp.
+
+===== 3) GYÁRTÁSI TERV (kétféle forrás) =====
+A) MI-generált jelenetek (0–10 mp és 19–30 mp): a prompt lent.
+B) VALÓDI JÁTÉKKÉPERNYŐ (10–19 mp): a demó v2.3 kivetítő nézetének képernyőfelvétele (1280×720 vagy 1920×1080), mert a generátor nem tud olvasható szöveget és alakzatot megbízhatóan rajzolni. Ez a „termék felülete mint márka” elv. Kérésre elkészítem a felvételt a demóból, és egybevágom az MI-jelenetekkel.
+
+===== 4) PROMPT – A) rész, EGYBEN MÁSOLHATÓ (angol), 21 mp összesen két klipben =====
+--- A1 (10 másodperc): HOOK + CÍM ---
+Create a 10-second cinematic video clip.
+
+Format: 16:9 landscape, 1080p if available (otherwise 720p), 24-30 fps, MP4. Duration exactly 10 seconds. No dialogue, no speech, no vocals.
+
+Visual style: dark, high-contrast, teal-blue and magenta neon palette, soft bloom, subtle film grain, shallow depth of field, cinematic. Fictional old red-brick border-fortress town 'Bastyavar' and its fictional school; no real institution, insignia, flag or logo.
+
+Storyboard:
+Shot 1 (0-3s): A deserted school corridor at night in an old red-brick building, arched windows, blue and magenta neon strips along the ceiling, polished floor reflections. In the far distance a smartphone lights up in a hand. Slow push-in.
+Shot 2 (3-6s): Close-up over a student's shoulder (from behind, dark hoodie, no face): a thumb hovers above a phone showing a bright pulsing abstract ring that slowly shrinks. Cyan glow on the hand, magenta rim light.
+Shot 3 (6-10s): Dark clean background. Glowing teal network lines assemble into the silhouette of a fortress rampart wall with battlements, then the image resolves into empty dark space in the lower center (leave it empty for a title) and holds.
+
+Audio: Original instrumental audio: low tense synth pulse around 100 BPM, a soft phone notification chime at 0s, building to one clean deep note at 6s.
+
+Strict constraints: no faces visible (people only from behind, as hands, or as silhouettes, dark hoodies, no logos); no legible letters, numbers, captions, watermarks or text anywhere, including on phone screens; nothing violent, gory or frightening; tense but calm, suitable for a school audience.
+
+--- A2 (11 másodperc, a platform korlátai miatt 10 mp is elég): ZÁRÁS ---
+Create an 11-second cinematic video clip.
+
+Format: 16:9 landscape, 1080p if available (otherwise 720p), 24-30 fps, MP4. Duration exactly 11 seconds. No dialogue, no speech, no vocals.
+
+Visual style: dark, high-contrast, teal-blue and magenta neon palette, soft bloom, subtle film grain, shallow depth of field, cinematic. Fictional old red-brick border-fortress town 'Bastyavar' and its fictional school; no real institution, insignia, flag or logo.
+
+Storyboard:
+Shot 1 (0-4s): A school esports room, a large monitor with abstract shapes suddenly breaks into a red-tinted glitch; two students seen from behind lean forward. Then a rewind effect: glowing cyan light trails race backwards across the frame and the red tint fades back to teal.
+Shot 2 (4-8s): The same room, calm again: a team of teenagers seen only from behind stands together in front of a big monitor, hands joining in a high-five; warm window light mixes with teal monitor glow.
+Shot 3 (8-11s): Aerial view over the red-brick town at dawn; glowing network lines lock into a complete golden-teal rampart wall around the town; slow pull-back, then hold on a clean dark-to-gold sky area (leave empty for title).
+
+Audio: Original instrumental audio: reverse-swoosh synth sweep at 2s, then an uplifting rhythmic pulse that resolves to a clear major chord, held note at the end.
+
+Strict constraints: no faces visible (people only from behind, as hands, or as silhouettes, dark hoodies, no logos); no legible letters, numbers, captions, watermarks or text anywhere, including on monitor screens (screens show only abstract shapes); nothing violent, gory or frightening; tense but calm, suitable for a school audience.
+
+Negatív prompt (mindkét klipre, ha van rá mező): text, letters, numbers, subtitles, logo, watermark, face, close-up of face, gore, weapons, blood
+
+===== 5) EGYETLEN, TELJES 30 MP-ES VÁLTOZAT (ha a generátor a 30 mp-et egyben kezeli) =====
+Ha nincs szükség valódi játékképernyőre, az A1 + a „UI” rész helyett ez egy klipben is kérhető; a játékfelületet ekkor elvont „négy színes alakzat, időzítő-sáv és három mérősáv” képként kapjuk, felirat nélkül. Kérd: „Show an abstract big-screen interface in a classroom: four large colored shape tiles (triangle, diamond, circle, square), a thin timer bar, three small meter bars; no letters or numbers.” A feliratokat utómunkában helyezzük rá.
+
+===== 6) Utómunka =====
+Összefűzés: A1 (10) + játékképernyő (9) + A2 (11) = 30 mp. A felirat és a cím a végén kerül rá (HTML-felirat vagy videószerkesztő), magyarul, az 1. pont időkódjai szerint.
+Méret: közösségi felülethez 1080p; a demóba ágyazáshoz: ffmpeg -i be.mp4 -vf scale=960:540 -c:v libx264 -crf 27 -preset slow -c:a aac -b:a 64k ki.mp4
+
+Források (a koncepcióhoz): Fiverr első márkakampánya „In Doers We Trust” (LBB Online), Fiverr: Behind the Brand Evolution (Fiverr Design, Medium).
