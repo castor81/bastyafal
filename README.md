@@ -2,7 +2,7 @@
 
 Védd a hálót. Vezetett, csapatjáték-formátumú, döntésalapú képzés középiskolásoknak (Kibervédelem alapjai, Információs műveletek alapjai). Fiktív helyszín: Bástyavár, Bástya Gimnázium, BástyaKupa.
 
-NKE HHK Katonai Távoktatási és Vizsgaközpont · v2.3 · 2026-11-06
+NKE HHK Katonai Távoktatási és Vizsgaközpont · v2.4 · 2026-11-06
 
 ## Tartalom
 - `index.html` – az 5–7 perces demó (egyetlen fájl, a videók beágyazva, magyar felirattal). Szimulált csapatmódban fut, bot-szavazókkal.
@@ -14,3 +14,6 @@ NKE HHK Katonai Távoktatási és Vizsgaközpont · v2.3 · 2026-11-06
 - Az élő, több telefonos mód a claude.ai artifact adatbázisát használja; ezen a helyen (Vercel) a szimulált mód működik. Éles osztálytermi használathoz az S2V (Scan2Vote) háttér kell.
 - Az ezüst/bronz és tanulópálya záró videó (V5b, V5c) még nincs legenerálva.
 - A videók MI-generáltak; éles kiadás előtt jóváhagyás szükséges.
+
+## v2.4 (2026-11-06)
+- Indítóképernyő: a V6 bemutató klip (30 mp) a képernyő közepén (~60%), körülötte mozgó, áttetsző emblémaminta sötét háttéren. Élő/szimulációs módba lépéskor fut, „Tovább a játékhoz” gombbal átugorható.
