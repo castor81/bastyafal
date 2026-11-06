@@ -16,4 +16,4 @@ NKE HHK Katonai Távoktatási és Vizsgaközpont · v2.4 · 2026-11-06
 - A videók MI-generáltak; éles kiadás előtt jóváhagyás szükséges.
 
 ## v2.4 (2026-11-06)
-- Indítóképernyő: a V6 bemutató klip (30 mp) a képernyő közepén (~60%), körülötte mozgó, áttetsző emblémaminta sötét háttéren. Élő/szimulációs módba lépéskor fut, „Tovább a játékhoz” gombbal átugorható.
+- Indítóképernyő: a V6 bemutató klip (30 mp) a képernyő közepén (~60%), körülötte mozgó, áttetsző emblémaminta sötét háttéren. Az oldal megnyitásakor először ez fut, majd automatikusan a felület következik, „Tovább a játékhoz” gombbal átugorható.

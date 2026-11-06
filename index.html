@@ -2958,7 +2958,7 @@ async function route(){
   MODE=h==='hazigazda'?'host':h==='jatek'?'play':h==='szimulacio'?'sim':null;
   if(MODE==='host'&&!db){MODE='sim'}
   shell();
-  if(MODE==='sim'||MODE==='host'){startGame();showSplash()}
+  if(MODE==='sim'||MODE==='host')startGame();
   if(MODE==='play')startPlayer();
 }
 async function startPlayer(){
@@ -2981,6 +2981,7 @@ async function boot(){
   try{if(userApi)canEdit=await userApi.canEdit()}catch(e){}
   window.addEventListener('hashchange',route);
   route();
+  if((location.hash||'')!=='#jatek')showSplash();
 }
 boot();
 })();
