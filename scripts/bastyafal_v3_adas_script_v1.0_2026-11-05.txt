@@ -1,0 +1,31 @@
+BÁSTYAFAL – V3 - A megszakadt adas (10 s)
+Hol játszódik a játékban: K7 (a csapat streamfiókja idegen kézben) döntés előtt.
+Fájlnév a kész videóhoz: bastyafal_v3_adas.mp4  (v1.0 · 2026-11-05)
+
+===== 1) PROMPT – EGYBEN MÁSOLHATÓ (angol) =====
+Create a 10-second cinematic video clip.
+
+Format: 16:9 landscape, 1080p if available (otherwise 720p), 24-30 fps, MP4. Duration exactly 10 seconds. No dialogue, no speech, no vocals.
+
+Visual style: dark, high-contrast, teal-blue and magenta neon palette, soft bloom, subtle film grain, shallow depth of field, cinematic. Fictional old red-brick border-fortress town 'Bastyavar' and its fictional school; no real institution, insignia, flag or logo.
+
+Storyboard:
+Shot 1 (0-3s): Medium-wide shot from behind two students sitting at a desk facing a large monitor in a school esports room in an old red-brick building; arched window with dark evening outside; blue and magenta neon strips. The monitor shows calm abstract blue shapes; one student leans back relaxed. Slow push-in.
+Shot 2 (3-7s): Closer shot of the monitor as the calm shapes break into a red-tinted glitch distortion; both students lean sharply forward; red flicker over their hoods, then it settles. Quick small push-in.
+Shot 3 (7-10s): Tight close-up of a hand gripping a computer mouse, the glitching monitor reflected in the desk surface; the hand pauses and holds still. Locked-off camera; fade out.
+
+Audio: Original instrumental audio: tense low synth drone with a brief distorted stutter at 3s, then a sparse pulse around 85 BPM, ending on one held note. Ambience: keyboard clicks, a chair creak, a short electronic glitch burst at 3s, ventilation hum.
+
+Strict constraints: no faces visible (people only from behind, as hands, or as silhouettes, dark hoodies, no logos); no legible letters, numbers, captions, watermarks or text anywhere, including on phone and monitor screens (screens show only abstract shapes, rings, bars); nothing violent, gory or frightening; tense but calm, suitable for a school audience; the attacker is never shown.
+
+===== 2) NEGATÍV PROMPT (ha van rá külön mező) =====
+text, letters, numbers, subtitles, logo, watermark, face, close-up of face, gore, weapons, blood
+
+===== 3) MAGYAR FELIRAT – NEM a promptba! A játék rakja rá, időkóddal =====
+00:00-00:03  A BástyaKupa-adás megy. Minden nyugodt.
+00:03-00:07  Hirtelen más veszi át az adást.
+00:07-00:10  Düh vagy fejvesztés? Döntsetek.
+
+===== 4) Utómunka =====
+Ha 3 MB-nál nagyobb: ffmpeg -i bastyafal_v3_adas.mp4 -vf scale=960:540 -c:v libx264 -crf 28 -preset veryfast -c:a aac -b:a 64k ki.mp4
+Ha a generátor szöveget vagy arcot rajzol a képre, generáld újra; a felirat nem lehet beégetve.
