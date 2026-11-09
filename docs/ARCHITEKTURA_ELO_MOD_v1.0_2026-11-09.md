@@ -18,7 +18,7 @@ A demó (v2.x) élő módja a claude.ai artifact beépített adatbázisán futot
 
 ## Biztonsági és adatvédelmi alapelvek
 - Játékosok személyes adatot nem adnak meg; a becenév véletlenszerű, a token csak a böngésző `sessionStorage`-ában él.
-- Házigazda-kód: hash-elve tárolva (`bf_host_codes`); 10 percen belül 30 hibás próba után a belépés zárolódik.
+- Házigazda-kód: jelenleg **nincs megkövetelve** (`bf_config.host_code_required = false`); ilyenkor a játékmenet-létrehozás korlátja 100 / 10 perc. Bekapcsolva (`true`) a kód hash-elve ellenőrzött (`bf_host_codes`), és 10 percen belül 30 hibás próba után a belépés zárolódik. A kapcsolás egyetlen adatbázis-művelet, a kliens változtatása nem kell.
 - Szavazás szerveroldalon ellenőrzött: csak `vote` fázisban, az aktuális kulcsra, megengedett opcióra; játékosonként és kérdésenként egy szavazat (az első érvényes marad).
 - Kapacitás: legfeljebb 80 játékos/játékmenet (az első üzemi cél: ~35 fő/osztály, több párhuzamos játék).
 - Megőrzés: a 7 napnál régebben inaktív játékmenetek (és játékosaik, szavazataik) törlődnek, a törlés új játékmenet indításakor fut.

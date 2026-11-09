@@ -2,7 +2,7 @@
 
 Védd a hálót. Vezetett, csapatjáték-formátumú, döntésalapú képzés középiskolásoknak (Kibervédelem alapjai, Információs műveletek alapjai). Fiktív helyszín: Bástyavár, Bástya Gimnázium, BástyaKupa.
 
-NKE HHK Katonai Távoktatási és Vizsgaközpont · v3.0.1 · 2026-11-09
+NKE HHK Katonai Távoktatási és Vizsgaközpont · v3.0.2 · 2026-11-09
 
 ## Tartalom
 - `index.html` – az 5–7 perces demó (egyetlen fájl, a videók beágyazva, magyar felirattal). Szimulált csapatmódban fut, bot-szavazókkal.
@@ -20,5 +20,5 @@ NKE HHK Katonai Távoktatási és Vizsgaközpont · v3.0.1 · 2026-11-09
 
 ## v3.0 (2026-11-09) – élő mód
 - Élő, többjátékos mód saját háttérrel: Supabase (KM-dev, `bf_` táblák) + Vercel. A játékosok QR-kóddal, fiók nélkül csatlakoznak.
-- Házigazda: kezdőoldal → „Házigazda nézet” → házigazda-kód. A kijelzőn megjelenik a 6 jegyű játékkód és a QR.
+- Házigazda: kezdőoldal → „Házigazda nézet” (egyelőre kód nélkül; a kód-követelmény a szerveren bekapcsolható). A kijelzőn megjelenik a 6 jegyű játékkód és a QR.
 - Részletek: `docs/ARCHITEKTURA_ELO_MOD_v1.0_2026-11-09.md`, terheléspróba: `scripts/loadtest.mjs`, változások: `CHANGELOG.md`.
