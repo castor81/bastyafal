@@ -2,7 +2,7 @@
 
 Védd a hálót. Vezetett, csapatjáték-formátumú, döntésalapú képzés középiskolásoknak (Kibervédelem alapjai, Információs műveletek alapjai). Fiktív helyszín: Bástyavár, Bástya Gimnázium, BástyaKupa.
 
-NKE HHK Katonai Távoktatási és Vizsgaközpont · v3.0 · 2026-11-09
+NKE HHK Katonai Távoktatási és Vizsgaközpont · v3.0.1 · 2026-11-09
 
 ## Tartalom
 - `index.html` – az 5–7 perces demó (egyetlen fájl, a videók beágyazva, magyar felirattal). Szimulált csapatmódban fut, bot-szavazókkal.

@@ -1,5 +1,8 @@
 # Változásnapló
 
+## v3.0.1 · 2026-11-09
+- Javítás: hiányzó mobil viewport és doctype pótolva; a játékos nézet valódi telefonon teljes képernyős, nagy gombokkal.
+
 ## v3.0 · 2026-11-09 – élő mód saját háttérrel (éles fejlesztés)
 - Élő mód Supabase-en (KM-dev, `bf_` táblák), a claude.ai artifact adatbázisa helyett; a játékosoknak nem kell fiók.
 - Házigazda-kódos belépés; 6 jegyű csatlakozókód; a QR a Vercel-címre mutat (`#jatek/KÓD`).
